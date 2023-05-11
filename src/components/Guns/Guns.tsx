@@ -10,7 +10,10 @@ const Guns = () => {
     const [gunsSpec, setGunsSpec] = useState<IGunsSpecifications[]>(gunsSpecifications)
 
     const handleShow = () => setShowList(!showList)
-    const handleGun = (e: SyntheticEvent<HTMLLIElement>) => setCurrentGun(e.target.innerHTML)
+    const handleGun = (e: SyntheticEvent<HTMLLIElement>) => {
+        // @ts-ignore
+        setCurrentGun(e.target.innerHTML)
+    }
 
     return (
         <section className={styles.guns}>
