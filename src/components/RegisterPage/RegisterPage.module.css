@@ -43,5 +43,5 @@
     @apply relative;
 }
 .icon {
-    @apply absolute right-[30px] top-1/2 -translate-y-1/2 leading-none text-[22px];
+    @apply absolute right-[30px] top-1/2 -translate-y-1/2 leading-none text-[22px] cursor-pointer;
 }
