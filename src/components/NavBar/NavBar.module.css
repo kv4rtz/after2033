@@ -1,0 +1,46 @@
+.header {
+    @apply bg-[#070707] py-[21px];
+
+    font-family: "Eurostar Black Extended", sans-serif;
+}
+
+.wrapper {
+    @apply flex items-center;
+}
+
+.logo {
+    @apply text-[16px] mr-[30px];
+}
+
+.nav {
+    @apply flex-grow;
+}
+
+.list {
+    @apply flex items-center gap-[50px] justify-between;
+}
+
+.right {
+    @apply flex items-center
+}
+
+.item {
+    @apply text-[#606060]  hover:text-[#fff] transition-all;
+}
+
+.item:nth-child(2) {
+    @apply ml-[23px] mr-[30px] relative;
+}
+
+.item:nth-child(2):before {
+    content: '';
+    @apply absolute h-[20px] w-[3px] bg-[#606060] -left-[13px];
+}
+
+.right > li:last-child > a {
+    @apply bg-[#00ff0a] text-[#000] px-[24px] py-[14px] hover:bg-[#02c408] transition-all;
+}
+
+.left {
+    @apply flex;
+}

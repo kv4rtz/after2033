@@ -1,0 +1,47 @@
+.login {
+    @apply mt-[150px];
+}
+
+.title {
+    @apply text-center text-[32px] mb-[40px];
+}
+
+.form {
+    @apply flex flex-col w-[400px] mx-auto;
+}
+
+.nickname, .password, .email, .confirmpassword {
+    @apply text-[22px] border border-[#fff] bg-transparent px-[24px] py-[14px] outline-none focus:border-[#00ff0a] transition-all;
+}
+
+.password {
+    @apply w-full;
+}
+
+.nickname, .password-block, .email {
+    @apply mb-[25px] w-full;
+}
+
+.confirmpassword {
+    @apply mb-[40px];
+}
+
+.btn {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply bg-[#00ff0a] py-[18px] px-[24px] text-[#000];
+}
+
+.register {
+    @apply text-center text-[16px] text-[#aeaeae] mt-[20px];
+}
+
+.register > a {
+    @apply underline hover:text-[#fff] transition-all;
+}
+
+.password-block {
+    @apply relative;
+}
+.icon {
+    @apply absolute right-[30px] top-1/2 -translate-y-1/2 leading-none text-[22px];
+}

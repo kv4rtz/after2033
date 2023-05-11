@@ -1,0 +1,34 @@
+.aboutus {
+    @apply mt-[150px];
+}
+
+.title {
+    @apply text-center text-[32px];
+}
+.blocks {
+    @apply flex gap-[90px] mt-[45px];
+}
+
+.list-title {
+    @apply text-[28px] text-[#00FF0A] uppercase;
+}
+
+.list > li {
+    @apply mt-[15px];
+}
+.list > li:first-child {
+    @apply mt-[20px]
+}
+
+.list-element {
+    @apply relative left-[26px] text-[24px];
+}
+.list-element::before {
+    content: '';
+    @apply absolute w-[13px] top-[10px] -left-[26px] h-[13px] bg-[#00ff0a] rounded-[100px]
+}
+
+.list-element > h4 {
+    font-family: "TT Firs Neue", sans-serif;
+    @apply font-bold;
+}

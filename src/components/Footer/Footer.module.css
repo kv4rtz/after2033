@@ -1,0 +1,12 @@
+.block {
+    @apply flex justify-center gap-[20px];
+}
+
+.age {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply text-center text-[32px] mb-[104px];
+}
+
+.footer {
+    @apply mt-[120px] mb-[160px];
+}

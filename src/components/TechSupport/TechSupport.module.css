@@ -1,0 +1,28 @@
+.techsupport {
+    @apply mt-[150px];
+}
+
+.title {
+    @apply text-center text-[32px] mb-[40px];
+}
+
+.form {
+    @apply flex flex-col w-[700px] mx-auto;
+}
+
+.input, .textarea {
+    @apply text-[22px] border border-[#fff] bg-transparent px-[24px] py-[14px] outline-none focus:border-[#00ff0a] transition-all;
+}
+
+.input {
+    @apply mb-[25px];
+}
+
+.textarea {
+    @apply mb-[40px] h-[290px];
+}
+
+.btn {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply bg-[#00ff0a] py-[18px] px-[24px] text-[#000];
+}

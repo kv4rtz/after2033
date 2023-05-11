@@ -1,0 +1,17 @@
+@import url('fonts.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "TT Firs Neue", sans-serif;
+  background: #000;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Eurostar Black Extended', sans-serif;
+}

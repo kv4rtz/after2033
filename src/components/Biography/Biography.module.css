@@ -1,0 +1,41 @@
+.bio {
+    @apply mt-[220px];
+}
+
+.info {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply w-[718px]
+}
+
+.wrapper {
+    @apply flex items-center gap-[92px];
+}
+
+.info > h3 {
+    @apply w-[198px] text-[28px];
+}
+
+.main {
+    @apply flex items-center my-[25px] justify-between;
+}
+
+.main > div > h4 {
+    @apply text-[#00ff0a] text-[24px];
+}
+
+.main > div > p {
+    @apply text-[20px];
+}
+
+.block > h4 {
+    @apply text-[#00ff0a] text-[24px];
+}
+
+.block > p {
+    font-family: "TT Firs Neue", sans-serif;
+    @apply text-[#aeaeae] text-[20px] mt-[10px];
+}
+
+.weapons {
+    @apply mb-[25px];
+}

@@ -1,0 +1,87 @@
+.guns {
+    @apply mt-[220px];
+}
+
+.title {
+    @apply text-[32px];
+}
+
+.top {
+    @apply flex items-start justify-between mb-[40px];
+}
+
+.top > div:last-child {
+    @apply flex items-center;
+}
+
+.description {
+    @apply w-[593px] text-[20px] text-[#aeaeae] mt-[20px];
+}
+
+.gun {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply text-[18px] mr-[30px];
+}
+
+.button {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply py-[14px] px-[24px] bg-[#00ff0a] text-[#000] flex items-center;
+}
+
+.button > i {
+    @apply text-[20px] block mt-[7px] ml-[10px];
+}
+
+.list {
+    font-family: "Eurostar Black Extended", sans-serif;
+    max-height: 0;
+    transform: scaleY(0);
+    position: absolute;
+    transition: 125ms ease-in-out;
+}
+
+.list > li {
+    @apply px-[14px] py-[24px] bg-[#161616] cursor-pointer hover:bg-[#303030] transition-all;
+}
+
+.list.active {
+    max-height: 288px;
+    transform: scaleY(1);
+}
+
+.wrapper {
+    @apply flex items-center;
+}
+
+.spec {
+    @apply mr-[100px] flex items-center;
+}
+
+.scale {
+    @apply relative w-[220px] h-[5px] bg-[#464646];
+}
+
+.scale > div {
+    @apply absolute left-0 top-0 h-full bg-[#aeaeae] transition-all;
+}
+
+.data > li {
+    @apply flex justify-between items-center text-[#aeaeae] text-[16px];
+}
+
+.data {
+    @apply w-[312px]
+}
+
+.rounds {
+    @apply ml-[22px] relative text-[16px];
+}
+
+.rounds > p:first-child {
+    @apply text-[#aeaeae]
+}
+
+.rounds::before {
+    content: '';
+    @apply absolute w-[2px] h-[65px] bg-[#232323] -left-[12px] top-1/2 -translate-y-1/2;
+}

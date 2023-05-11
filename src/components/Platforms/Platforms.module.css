@@ -1,0 +1,15 @@
+.platforms {
+    @apply mt-[220px];
+}
+
+.title {
+    @apply text-[32px] mb-[55px] text-center;
+}
+
+.all {
+    @apply flex w-[950px] justify-between mx-auto;
+}
+
+.all > svg > path {
+    @apply fill-[#000];
+}

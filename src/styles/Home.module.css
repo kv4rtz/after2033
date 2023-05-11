@@ -1,0 +1,33 @@
+.video {
+    @apply w-[1464px] mx-auto -translate-y-[90px] relative -z-[10];
+}
+.title {
+    line-height: 77px;
+    @apply text-[64px] text-center;
+}
+.title > span {
+    @apply text-[#00ff0a];
+}
+.wrapper {
+    @apply -translate-y-[386px];
+}
+.text {
+    line-height: 34px;
+    @apply font-semibold my-[30px] text-[26px] w-[600px] mx-auto text-center;
+}
+.order {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply border border-[1px] border-[#00ff0a] hover:border-[#02c408] bg-[#00ff0a] text-[#000] px-[24px] py-[14px] hover:bg-[#02c408] transition-all;
+}
+.tech {
+    font-family: "Eurostar Black Extended", sans-serif;
+    @apply border border-[1px] px-[24px] py-[14px] transition-all;
+}
+
+.buttons {
+    @apply flex justify-center gap-[30px];
+}
+
+.down {
+    @apply flex justify-center mt-[30px] text-[24px] animate-bounce;
+}
