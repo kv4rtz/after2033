@@ -4,14 +4,14 @@ export interface ILink {
 }
 
 const links: ILink[] = [
-    {
-        text: "TECH SUPPORT",
-        link: "/techsupport",
-    },
-    {
-        text: "ABOUT US",
-        link: "/aboutus",
-    },
+    // {
+    //     text: "TECH SUPPORT",
+    //     link: "/techsupport",
+    // },
+    // {
+    //     text: "ABOUT US",
+    //     link: "/aboutus",
+    // },
     {
         text: "LOGIN",
         link: "/login",

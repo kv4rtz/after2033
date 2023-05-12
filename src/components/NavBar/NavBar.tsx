@@ -9,16 +9,16 @@ const NavBar = () => {
             <Container>
                 <div className={styles.wrapper}>
                     <Link href={'/'} className={styles.logo}>AFTER 2033</Link>
-                    <nav className={styles.nav}>
+                    <nav>
                         <ul className={styles.list}>
-                            <div className={styles.left}>
-                                {links.map((el, idx) => (
-                                    idx <=1 ? <li key={idx} className={styles.item}><Link href={el.link}>{el.text}</Link></li> : null
-                                ))}
-                            </div>
+                            {/*<div className={styles.left}>*/}
+                            {/*    {links.map((el, idx) => (*/}
+                            {/*        idx <=1 ? <li key={idx} className={styles.item}><Link href={el.link}>{el.text}</Link></li> : null*/}
+                            {/*    ))}*/}
+                            {/*</div>*/}
                             <div className={styles.right}>
                                 {links.map((el, idx) => (
-                                    idx > 1 ? <li key={idx} className={styles.item}><Link href={el.link}>{el.text}</Link></li> : null
+                                    <li key={idx} className={styles.item}><Link href={el.link}>{el.text}</Link></li>
                                 ))}
                             </div>
                         </ul>

@@ -1,19 +1,14 @@
 .header {
     @apply bg-[#070707] py-[21px];
-
     font-family: "Eurostar Black Extended", sans-serif;
 }
 
 .wrapper {
-    @apply flex items-center;
+    @apply flex items-center justify-between;
 }
 
 .logo {
     @apply text-[16px] mr-[30px];
-}
-
-.nav {
-    @apply flex-grow;
 }
 
 .list {
@@ -21,7 +16,7 @@
 }
 
 .right {
-    @apply flex items-center
+    @apply flex items-center;
 }
 
 .item {
