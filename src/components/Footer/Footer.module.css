@@ -8,7 +8,7 @@
 }
 
 .footer {
-    @apply mt-[120px] mb-[160px];
+    @apply mt-[120px] mb-[50px];
 }
 
 .links {
