@@ -10,3 +10,11 @@
 .footer {
     @apply mt-[120px] mb-[160px];
 }
+
+.links {
+    @apply flex gap-[20px] mt-[50px] justify-center;
+}
+
+.links > a {
+    @apply text-[#aeaeae] hover:text-[#fff] transition-all
+}
